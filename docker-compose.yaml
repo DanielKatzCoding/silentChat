@@ -4,7 +4,7 @@ services:
   mongodb:
     image: mongo  # Use the official MongoDB image
     ports:
-      - "27017:27017"  # Expose port 27017
+      - 27017:27017  # Expose port 27017
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin  # Set the root username
       MONGO_INITDB_ROOT_PASSWORD: password  # Set the root password
