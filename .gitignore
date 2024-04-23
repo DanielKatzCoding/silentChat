@@ -1,0 +1,10 @@
+# Not needed for production
+*.venv
+*.idea
+
+# Test
+test.py
+
+# Token related stuff
+encrypted_token.txt
+decode_token.py
