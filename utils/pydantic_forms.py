@@ -7,9 +7,7 @@ class User(BaseModel):
     private_key: str
 
 
-class Msgs(BaseModel):
-    username: str
+class Msg(BaseModel):
+    ip: str
     msg: str
-    send_to_username: str
-    # In seconds
-    timer_del: int
+    from_ip: str
